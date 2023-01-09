@@ -1,0 +1,145 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>HurtownieDanychZaliczenie</Database>
+    <Server>.</Server>
+    <ConnectionString>Data Source=.;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>77d6VMX6eIHFKmQSCkYqhd3enKM=2023-01-08 11:39:43 AM2023-01-08 10:56:16 AM</TimeStamp>
+        <ID>
+          <String>Hurtownie Danych Zaliczenie</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>ChYIseAh7PZln+jpJF89iDh+vOo=2023-01-03 2:57:42 PM2023-01-08 10:56:16 AM</TimeStamp>
+        <ID>
+          <String>Hurtownie Danych Zaliczenie</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>T2n9AJstUpi2J4yWYVG7nmDOM8I=2023-01-09 3:09:48 PM2023-01-09 3:09:47 PM</TimeStamp>
+        <ID>
+          <String>Hurtownie Danych Zaliczenie 269459</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>IlKprbFJB5S+k01a2spQXD7rnEM=2023-01-09 3:59:31 PM2023-01-09 3:59:16 PM</TimeStamp>
+        <ID>
+          <String>Hurtownie Danych Zaliczenie 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>rCb03yH1Nkwl0OHvE22dtPxJR1w=2023-01-09 8:39:54 AM2023-01-08 10:56:16 AM</TimeStamp>
+        <ID>
+          <String>Klient 269454</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>5FmSwt1NhsQOK/uFJROcBbvQ0Gk=2023-01-09 8:40:38 AM2023-01-08 10:56:16 AM</TimeStamp>
+        <ID>
+          <String>Produkty Sprzedazy 269454</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>SF/1BbdUMrkAT9LOlNDyTSORW8M=2023-01-09 8:41:39 AM2023-01-08 10:56:16 AM</TimeStamp>
+        <ID>
+          <String>Data Sprzedazy 269454</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>j3pb5jlZyIKR5nk69b4LJ5bnBWc=2023-01-09 8:42:38 AM2023-01-08 10:56:16 AM</TimeStamp>
+        <ID>
+          <String>Waluta Sprzedazy 269454</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nWmro8hUrsPSwZNPxJOXyfC3cAE=2023-01-09 8:43:27 AM2023-01-08 10:56:16 AM</TimeStamp>
+        <ID>
+          <String>Miejsce Sprzedazy 269454</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>PIOp+tlPCEkKbU7HxFORx57jOWw=2023-01-09 3:50:07 PM2023-01-09 3:10:25 PM</TimeStamp>
+        <ID>
+          <String>Data Sprzedazy 269459</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ZKd1ICnYT73BDoZr2C7KJmxQw8g=2023-01-09 3:49:00 PM2023-01-09 3:10:25 PM</TimeStamp>
+        <ID>
+          <String>Miejsce Sprzedazy 269459</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>I5s4xJW1ddKYRgP1HZ8e1xySq7k=2023-01-09 4:30:16 PM2023-01-09 4:00:37 PM</TimeStamp>
+        <ID>
+          <String>Data Raportu 269423</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>b58eH7jzTWZbpCC4gLjyqvh9ijY=2023-01-09 4:31:50 PM2023-01-09 4:00:37 PM</TimeStamp>
+        <ID>
+          <String>Miejscowosc 269423</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>IxkC6z9c1FYn6HLdS9QzPcI2YnU=2023-01-09 8:36:52 AM2023-01-08 10:56:16 AMAmuYUACAWxiITYB3w31TSiqRPKY=2023-01-03 2:57:14 PM2023-01-08 10:56:16 AM</TimeStamp>
+        <ID>
+          <String>Hurtownie Danych Zaliczenie 269454</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>SI8cRAcre9yXQl/cgDaGHzk8GPo=2023-01-09 3:45:15 PM2023-01-09 3:10:25 PMrq/5TnL3v1jwhniVXG7IUAt2QEY=2023-01-09 3:10:25 PM2023-01-09 3:10:25 PM</TimeStamp>
+        <ID>
+          <String>Hurtownie Danych Zaliczenie 269459</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>6KTNtmKUP3vT3HfhYy1Gi6tZqPU=2023-01-09 4:30:16 PM2023-01-09 4:00:37 PM8Q5VI5HJuAnkiveAxb2jkp0wQpU=2023-01-09 4:00:37 PM2023-01-09 4:00:37 PM</TimeStamp>
+        <ID>
+          <String>Hurtownie Danych Zaliczenie 269423</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>H7OiE6afuw9uIuj5FHMdbVMLpv4=2023-01-03 2:50:39 PM2023-01-08 10:56:16 AM</TimeStamp>
+      <ID>
+        <String>HurtownieDanychZaliczenie</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-01-09T15:32:13.69Z</LastDeployed>
+</DeploymentSnapshot>

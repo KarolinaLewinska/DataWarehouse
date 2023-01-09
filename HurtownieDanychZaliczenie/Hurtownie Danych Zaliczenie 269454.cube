@@ -1,0 +1,671 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3457786d-74c6-4fe1-94a0-b6c7e5d65962" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Hurtownie Danych Zaliczenie 269454</ID>
+  <Name>Hurtownie Danych Zaliczenie 269454</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3192" scrolltop="-1677" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="85" x="17378" y="10943" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="miejsce_sprzedazy_269454" left="12525" top="4707" logicalid="12" controlid="1" masterid="0" hint1="0" hint2="0" width="4022" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b60f000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_miejsce_sprzedazy_269454" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="sprzedaz_269454" left="6103" top="3988" logicalid="13" controlid="2" masterid="0" hint1="0" hint2="0" width="4022" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b60f0000d30b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_sprzedaz_269454" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="klient_269454" left="6614" top="0" logicalid="14" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_klient_269454" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="produkty_sprzedazy_269454" left="9611" top="9415" logicalid="15" controlid="4" masterid="0" hint1="0" hint2="0" width="3281" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000d10c00009b070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_produkty_sprzedazy_269454" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="waluta_sprzedazy_269454" left="3337" top="9415" logicalid="16" controlid="5" masterid="0" hint1="0" hint2="0" width="3874" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000220f000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_waluta_sprzedazy_269454" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="data_sprzedazy_269454" left="20" top="4168" logicalid="17" controlid="6" masterid="0" hint1="0" hint2="0" width="3683" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000630e00006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_data_sprzedazy_269454" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9825" top="5102" logicalid="18" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__sprzedaz___id_mi__0C85DE4D]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="16" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12525" y="5501" />
+              <point x="10125" y="5501" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4875" top="6715" logicalid="19" controlid="8" masterid="0" hint1="0" hint2="0" width="2439" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__sprzedaz___id_wa__0F624AF8]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="2" sourceattachpoint="6" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5274" y="9415" />
+              <point x="5274" y="8215" />
+              <point x="7014" y="8215" />
+              <point x="7014" y="7015" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3403" top="5102" logicalid="20" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__sprzedaz___id_da__0E6E26BF]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="2" sourceattachpoint="19" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3703" y="5501" />
+              <point x="6103" y="5501" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8364" top="6715" logicalid="21" controlid="10" masterid="0" hint1="0" hint2="0" width="3287" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__sprzedaz___id_pr__0D7A0286]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="4" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11251" y="9415" />
+              <point x="11251" y="8215" />
+              <point x="8664" y="8215" />
+              <point x="8664" y="7015" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7715" top="1089" logicalid="22" controlid="11" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__sprzedaz___id_kl__10566F31]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="5" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8114" y="1588" />
+              <point x="8114" y="3988" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3192</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1677</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>85</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Translations>
+    <Translation dwd:design-time-name="ec556f0d-c5d3-43f5-b31d-192052a4772b">
+      <Language>1033</Language>
+      <Caption>Data Warehouse Final Project 269454</Caption>
+    </Translation>
+  </Translations>
+  <Dimensions>
+    <Dimension dwd:design-time-name="42363f06-597f-4095-9ab1-b252ff06bb80">
+      <ID>Klient 269454</ID>
+      <Name>Klient 269454</Name>
+      <Translations>
+        <Translation dwd:design-time-name="e83726e8-c5f2-42d3-96fa-b54c079317de">
+          <Language>1033</Language>
+          <Caption>Client 269454</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>Klient 269454</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="175eb654-9168-4419-b788-551f9620a28a">
+          <AttributeID>Id Klient</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6d664255-9ab5-4913-bc95-2fdcacc032d3">
+          <AttributeID>Nazwa Klienta</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="e3d4c634-4f36-4fac-b45f-f5b1e9e12035">
+      <ID>Produkty Sprzedazy 269454</ID>
+      <Name>Produkty Sprzedazy 269454</Name>
+      <Translations>
+        <Translation dwd:design-time-name="2d0bc150-abdd-4552-8ec8-94319f8e02d5">
+          <Language>1033</Language>
+          <Caption>Sales Products</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>Produkty Sprzedazy 269454</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="6482647a-6fcc-44da-a8f6-039044d42922">
+          <AttributeID>Id Produkt</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e8536031-facb-4f5b-ba6a-4029ff592df6">
+          <AttributeID>Nazwa Produktu</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="191912d2-05e8-4643-ba68-e09993c0aac3">
+          <AttributeID>Kategoria</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="7ea67381-a065-4066-a519-96fece83e4ff">
+      <ID>Data Sprzedazy 269454</ID>
+      <Name>Data Sprzedazy 269454</Name>
+      <Translations>
+        <Translation dwd:design-time-name="d2ed0ba7-c075-4aa6-ae31-61525495bbc2">
+          <Language>1033</Language>
+          <Caption>Date of Sales</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>Data Sprzedazy 269454</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d93c0567-b917-4b03-8b62-3905f869ff6a">
+          <AttributeID>Id Data Sprzedazy</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="24b5a752-d68b-4806-8de0-77c4d80cabd1">
+          <AttributeID>Dzien Sprzedazy</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bbc0381c-e844-474a-a98a-5a41d442386e">
+          <AttributeID>Miesiac Sprzedazy</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0488f68e-15ca-4068-8693-cc23a588ced8">
+          <AttributeID>Rok Sprzedazy</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="08dbb581-188f-4e49-9bde-508115626f72">
+          <AttributeID>Godzina Sprzedazy</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="ca5ca766-1ace-4d8f-b39e-807ecc5b6d85">
+      <ID>Waluta Sprzedazy 269454</ID>
+      <Name>Waluta Sprzedazy 269454</Name>
+      <Translations>
+        <Translation dwd:design-time-name="235492dd-9f8c-4d85-834e-362ada26fe46">
+          <Language>1033</Language>
+          <Caption>Sales Currency</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>Waluta Sprzedazy 269454</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="044cfee3-f158-47a3-9f28-0dadf78345dc">
+          <AttributeID>Id Waluta Sprzedazy</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="62a87807-29b3-4ce0-b115-8ed512039214">
+          <AttributeID>Symbol Waluty</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="cd3335f1-fb69-42c7-8d7b-349a8c993c14">
+      <ID>Miejsce Sprzedazy 269454</ID>
+      <Name>Miejsce Sprzedazy 269454</Name>
+      <Translations>
+        <Translation dwd:design-time-name="9986b003-a425-4b83-b4af-5bafd1821bd2">
+          <Language>1033</Language>
+          <Caption>Place of Sales</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>Miejsce Sprzedazy 269454</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="0a343fc1-dacd-470b-bc89-94a9f9935cdb">
+          <AttributeID>Id Miejsce Sprzedazy</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d52860d6-57d5-49c5-828c-507e34798722">
+          <AttributeID>Miejscowosc</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <Perspectives>
+    <Perspective dwd:design-time-name="2656cf1e-e21b-47eb-9721-d00fa14f8240">
+      <ID>Perspective</ID>
+      <Name>WedlugKlientow</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Translations>
+        <Translation dwd:design-time-name="4fb50864-4f2d-4ec3-ad50-ac0b8682c214">
+          <Language>1033</Language>
+          <Caption>By Clients</Caption>
+        </Translation>
+      </Translations>
+      <Dimensions>
+        <Dimension dwd:design-time-name="339b7f24-6500-42c4-a539-0bdfa7148b6e">
+          <CubeDimensionID>Klient 269454</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="46050338-5202-4ede-b1fd-9745657d5923">
+              <AttributeID>Id Klient</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="21012280-a46e-4dca-82fb-0efc187ddfa0">
+              <AttributeID>Nazwa Klienta</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="900e45a1-e81a-4a88-af36-abadb5d47899">
+          <CubeDimensionID>Waluta Sprzedazy 269454</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1915c6e2-1650-403f-bbf0-a6c57ff585de">
+              <AttributeID>Id Waluta Sprzedazy</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="791d86d8-cd33-4f3d-8568-1e6ff6594cd5">
+              <AttributeID>Symbol Waluty</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup dwd:design-time-name="2065d33a-bca7-4142-9aac-eb88b9a85d02">
+          <MeasureGroupID>Sprzedaz 269454</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="a58f470c-8fe1-4666-aadb-a40981f37ae2">
+              <MeasureID>Kwota Sprzedazy</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+      </MeasureGroups>
+    </Perspective>
+    <Perspective dwd:design-time-name="54de3b2d-760b-49e4-b1f1-12bae3a0af76">
+      <ID>Perspective 1</ID>
+      <Name>WedlugDatySprzedazy</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Translations>
+        <Translation dwd:design-time-name="224e80f7-a90b-4e2b-b1b7-b6640110dbfa">
+          <Language>1033</Language>
+          <Caption>By Date of Sales</Caption>
+        </Translation>
+      </Translations>
+      <Dimensions>
+        <Dimension dwd:design-time-name="5911a37f-34d4-44c3-9396-e09b23acb125">
+          <CubeDimensionID>Data Sprzedazy 269454</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1baee3ce-5238-4c5c-8004-33bf51aa9e0b">
+              <AttributeID>Id Data Sprzedazy</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="553e19ef-b8e0-4990-9baa-a85e2221f0a2">
+              <AttributeID>Dzien Sprzedazy</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="12986be7-0891-43ed-9760-c2b836a06030">
+              <AttributeID>Miesiac Sprzedazy</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="b18aa92b-6345-4a18-8639-93156594564c">
+              <AttributeID>Rok Sprzedazy</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="9e846658-33d9-4bea-b81a-7465e01066fd">
+              <AttributeID>Godzina Sprzedazy</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="f1946b79-52b0-4945-b0c2-0e90849b548d">
+          <CubeDimensionID>Waluta Sprzedazy 269454</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7d37bc62-578f-4478-9e93-04c5937b872e">
+              <AttributeID>Id Waluta Sprzedazy</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="ca5beecb-3dfa-4472-833f-0c730cf7802f">
+              <AttributeID>Symbol Waluty</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup dwd:design-time-name="3651266b-f10e-42c7-b16a-ad8cac4c1781">
+          <MeasureGroupID>Sprzedaz 269454</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="46190a5e-29a6-422c-b80f-b0ec053a7974">
+              <MeasureID>Kwota Sprzedazy</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+      </MeasureGroups>
+    </Perspective>
+    <Perspective dwd:design-time-name="7bf5bc01-98d0-49b0-bcdd-c6fda82bdccb">
+      <ID>Perspective 2</ID>
+      <Name>WedlugMiejscaSprzedazy</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Translations>
+        <Translation dwd:design-time-name="d00f4d64-7da2-48fe-b88f-74269b927d55">
+          <Language>1033</Language>
+          <Caption>By Place of Sales</Caption>
+        </Translation>
+      </Translations>
+      <Dimensions>
+        <Dimension dwd:design-time-name="8b1dfe8e-1a71-40ff-a860-e60d9c1ccb48">
+          <CubeDimensionID>Waluta Sprzedazy 269454</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="46b7280b-9d42-4c21-919d-325b4315eec5">
+              <AttributeID>Id Waluta Sprzedazy</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="3865a314-74f1-43de-8946-3b7d23ec8ba9">
+              <AttributeID>Symbol Waluty</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="5036c733-d92f-4a97-b81e-1b2a44c7953c">
+          <CubeDimensionID>Miejsce Sprzedazy 269454</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="399d3ae5-242e-40c0-8098-356051f0b135">
+              <AttributeID>Id Miejsce Sprzedazy</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="ccf43b4c-51ee-42c7-ab0a-6143639f9d92">
+              <AttributeID>Miejscowosc</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup dwd:design-time-name="16e3f08d-ee40-4be3-9a97-5e945ca3b9b8">
+          <MeasureGroupID>Sprzedaz 269454</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="48f9782e-2aeb-4686-96aa-938954c509a8">
+              <MeasureID>Kwota Sprzedazy</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+      </MeasureGroups>
+    </Perspective>
+    <Perspective dwd:design-time-name="e2e18496-98fb-4b3c-a249-d7b1ab6640e2">
+      <ID>Perspective 3</ID>
+      <Name>WedlugProduktow</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Translations>
+        <Translation dwd:design-time-name="b2f2086a-839f-430d-bcfc-5f656e86f498">
+          <Language>1033</Language>
+          <Caption>By Products</Caption>
+        </Translation>
+      </Translations>
+      <Dimensions>
+        <Dimension dwd:design-time-name="34620415-2197-47b4-bd43-5191f0569140">
+          <CubeDimensionID>Produkty Sprzedazy 269454</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="41ceb7f3-8999-44e3-92fb-11c7bd1edb62">
+              <AttributeID>Id Produkt</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="cd50ffcd-eaa9-4a76-9f83-41b911941b13">
+              <AttributeID>Nazwa Produktu</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="f741e279-e0a2-4954-bab9-256371e61d8c">
+              <AttributeID>Kategoria</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="381f40f0-bfe3-45b2-81ab-d212aa9e55db">
+          <CubeDimensionID>Waluta Sprzedazy 269454</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d8ab644f-d18a-457f-9f21-89eb489441a1">
+              <AttributeID>Id Waluta Sprzedazy</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="e87006b4-1b46-499f-b758-27b1b05cf7d2">
+              <AttributeID>Symbol Waluty</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup dwd:design-time-name="fc51fe1f-7787-4cc4-a0af-f44d3e533564">
+          <MeasureGroupID>Sprzedaz 269454</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="454143ef-f672-4590-9013-229d8b157420">
+              <MeasureID>Kwota Sprzedazy</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+      </MeasureGroups>
+    </Perspective>
+  </Perspectives>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="b00da41c-c2d9-4ef8-a515-ed4cd3c8916f">
+      <ID>Sprzedaz 269454</ID>
+      <Name>Sprzedaz 269454</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="4944712f-db8d-4119-9a98-848fa3179b2a">
+          <Language>1033</Language>
+          <Caption>Sales 269454</Caption>
+        </Translation>
+      </Translations>
+      <Measures>
+        <Measure dwd:design-time-name="43e076bf-46b8-462d-b495-3bfb29168c55">
+          <ID>Kwota Sprzedazy</ID>
+          <Name>Kwota Sprzedazy</Name>
+          <Source dwd:design-time-name="f234d088-517e-4641-9266-0ad2f3ad6ce5">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8bd5f633-d564-47d2-9390-b0ecdea00956">
+              <TableID>dbo_sprzedaz_269454</TableID>
+              <ColumnID>kwota_sprzedazy</ColumnID>
+            </Source>
+          </Source>
+          <Translations>
+            <Translation dwd:design-time-name="ccfbe273-6879-4a37-b8c2-02ba4386452f">
+              <Language>1033</Language>
+              <Caption>Amount of Sales</Caption>
+            </Translation>
+          </Translations>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1e5105df-0e0b-4f77-8bb3-715dbe750d1d">
+          <CubeDimensionID>Klient 269454</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="62e34872-8e53-4a1b-ab22-03adfb3e5d21">
+              <AttributeID>Id Klient</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e433e755-96a4-4d1d-aca4-8792b1a54247">
+                  <DataType>Double</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="47cc9e85-fab0-4780-9e00-6bdc37b31c28">
+                    <TableID>dbo_sprzedaz_269454</TableID>
+                    <ColumnID>id_klient</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fc736630-b2e4-4b44-a257-f38afb2e1e84">
+          <CubeDimensionID>Produkty Sprzedazy 269454</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="dffc3e73-771e-49dc-9090-2d6208ccd724">
+              <AttributeID>Id Produkt</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="19452899-a055-4d27-8e3a-058026d23920">
+                  <DataType>Double</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="995a5287-6e3b-490b-a465-2a41fe2463ac">
+                    <TableID>dbo_sprzedaz_269454</TableID>
+                    <ColumnID>id_produkt</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c31b8311-2e85-4733-a91c-9c431b2723bb">
+          <CubeDimensionID>Data Sprzedazy 269454</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f890ca11-adc7-4355-ba57-c600658db37a">
+              <AttributeID>Id Data Sprzedazy</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1d7de417-3be3-423b-ad42-58ecadcc16e3">
+                  <DataType>Double</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7e3c20e7-6ea4-4353-9f10-606bd4ad965e">
+                    <TableID>dbo_sprzedaz_269454</TableID>
+                    <ColumnID>id_data_sprzedazy</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a4c31aa5-793d-4dd5-8398-6bdbb8d8d331">
+          <CubeDimensionID>Waluta Sprzedazy 269454</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a87d1a29-551a-4137-be31-074d6106213c">
+              <AttributeID>Id Waluta Sprzedazy</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c4e68275-b18c-41e7-8ee6-18234b76f466">
+                  <DataType>Double</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="de3c41c0-f282-42fb-a874-0f88d488d6a9">
+                    <TableID>dbo_sprzedaz_269454</TableID>
+                    <ColumnID>id_waluta_sprzedazy</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="edc86169-664a-4780-8b11-4e839066dc41">
+          <CubeDimensionID>Miejsce Sprzedazy 269454</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="850de2d2-1ae1-424b-8329-2a704b596fd1">
+              <AttributeID>Id Miejsce Sprzedazy</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ee6c733e-201d-4020-803b-554770f4ea7a">
+                  <DataType>Double</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="84c925af-8a71-44ee-b5aa-9bcc31a79b25">
+                    <TableID>dbo_sprzedaz_269454</TableID>
+                    <ColumnID>id_miejsce_sprzedazy</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="c6424c4c-58fc-4d45-827e-1a54ffab2229">
+    <DataSourceViewID>Hurtownie Danych Zaliczenie</DataSourceViewID>
+  </Source>
+</Cube>

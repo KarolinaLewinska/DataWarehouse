@@ -1,0 +1,121 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4c1dba1e-b9a8-44fc-b501-f941b8e5c47c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Hurtownie Danych Zaliczenie 1</ID>
+  <Name>Hurtownie Danych Zaliczenie 269423</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Hurtownie Danych Zaliczenie</DataSourceID>
+  <Schema>
+    <xs:schema id="Hurtownie_x0020_Danych_x0020_Zaliczenie" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Hurtownie_x0020_Danych_x0020_Zaliczenie" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="c134a040-aeab-40ed-b117-1db399bcef4d">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_data_raportu_269423" msprop:design-time-name="01d8813a-c610-498b-bbe3-279952035396" msprop:FriendlyName="data_raportu_269423" msprop:DbSchemaName="dbo" msprop:DbTableName="data_raportu_269423" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_data_raportu" msprop:design-time-name="46d2eb94-5ecc-4a0a-9839-48f581939593" msprop:DbColumnName="id_data_raportu" msprop:FriendlyName="id_data_raportu" type="xs:double" />
+                  <xs:element name="dzien_raportu" msprop:design-time-name="382ed836-7105-484f-add3-a0c59d184509" msprop:DbColumnName="dzien_raportu" msprop:FriendlyName="dzien_raportu" type="xs:int" minOccurs="0" />
+                  <xs:element name="miesiac_raportu" msprop:design-time-name="3d8ba029-26f1-4f80-a9fd-21ff91fd237e" msprop:DbColumnName="miesiac_raportu" msprop:FriendlyName="miesiac_raportu" type="xs:int" minOccurs="0" />
+                  <xs:element name="rok_raportu" msprop:design-time-name="7c64ee41-a655-41d7-9ed2-a99edbe9f0bd" msprop:DbColumnName="rok_raportu" msprop:FriendlyName="rok_raportu" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_stan_oddzialu_269423" msprop:design-time-name="7876112b-3ad0-4930-95d1-fd45917eee24" msprop:FriendlyName="stan_oddzialu_269423" msprop:DbSchemaName="dbo" msprop:DbTableName="stan_oddzialu_269423" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_data_raportu" msprop:design-time-name="3c6b1847-acd0-473e-bc23-50bd88ae9be2" msprop:DbColumnName="id_data_raportu" msprop:FriendlyName="id_data_raportu" type="xs:double" minOccurs="0" />
+                  <xs:element name="id_miejscowosc" msprop:design-time-name="9f8fd0d3-d477-4831-9c43-45d22494a832" msprop:DbColumnName="id_miejscowosc" msprop:FriendlyName="id_miejscowosc" type="xs:double" minOccurs="0" />
+                  <xs:element name="sprzedaz_w_zl" msprop:design-time-name="b56a02d1-eca8-42db-9ed0-02189eb110b2" msprop:DbColumnName="sprzedaz_w_zl" msprop:FriendlyName="sprzedaz_w_zl" type="xs:double" minOccurs="0" />
+                  <xs:element name="koszty_w_zl" msprop:design-time-name="6c580a0b-b405-471f-9e47-e47b894acf51" msprop:DbColumnName="koszty_w_zl" msprop:FriendlyName="koszty_w_zl" type="xs:double" minOccurs="0" />
+                  <xs:element name="produkcja_w_szt" msprop:design-time-name="eae65f18-d38c-43c8-ae7a-493f50d8a553" msprop:DbColumnName="produkcja_w_szt" msprop:FriendlyName="produkcja_w_szt" type="xs:int" minOccurs="0" />
+                  <xs:element name="zamowienia_polproduktow_w_kg" msprop:design-time-name="16b0c0cb-d32a-46d7-9bae-d2980cba4c6f" msprop:DbColumnName="zamowienia_polproduktow_w_kg" msprop:FriendlyName="zamowienia_polproduktow_w_kg" type="xs:double" minOccurs="0" />
+                  <xs:element name="zamowienia_czesci_w_szt" msprop:design-time-name="f7f14c0d-7e09-4e80-9670-8b491ef2bad2" msprop:DbColumnName="zamowienia_czesci_w_szt" msprop:FriendlyName="zamowienia_czesci_w_szt" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_miejscowosc_269423" msprop:design-time-name="33534e71-ff7d-4a52-9b39-0417351316dc" msprop:FriendlyName="miejscowosc_269423" msprop:DbSchemaName="dbo" msprop:DbTableName="miejscowosc_269423" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_miejscowosc" msprop:design-time-name="5e42db75-47f8-49ef-b6e8-b686268eca98" msprop:DbColumnName="id_miejscowosc" msprop:FriendlyName="id_miejscowosc" type="xs:double" />
+                  <xs:element name="miasto" msprop:design-time-name="af9b99c9-b3cc-42d7-af8f-52e98945ee2d" msprop:DbColumnName="miasto" msprop:FriendlyName="miasto" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="powiat" msprop:design-time-name="dab77ea4-e430-43ea-81c1-e28173476798" msprop:DbColumnName="powiat" msprop:FriendlyName="powiat" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="wojewodztwo" msprop:design-time-name="1a1c6a5c-7258-4791-825e-0b756584c30e" msprop:DbColumnName="wojewodztwo" msprop:FriendlyName="wojewodztwo" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_data_raportu_269423" />
+          <xs:field xpath="id_data_raportu" />
+        </xs:unique>
+        <xs:unique name="dbo_miejscowosc_269423_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_miejscowosc_269423" />
+          <xs:field xpath="id_miejscowosc" />
+        </xs:unique>
+        <xs:keyref name="FK__stan_oddz__id_da__55009F39" refer="Constraint1">
+          <xs:selector xpath=".//dbo_stan_oddzialu_269423" />
+          <xs:field xpath="id_data_raportu" />
+        </xs:keyref>
+        <xs:keyref name="FK__stan_oddz__id_mi__55F4C372" refer="dbo_miejscowosc_269423_Constraint1">
+          <xs:selector xpath=".//dbo_stan_oddzialu_269423" />
+          <xs:field xpath="id_miejscowosc" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Hurtownie_x0020_Danych_x0020_Zaliczenie xmlns="" />
+  </Schema>
+</DataSourceView>

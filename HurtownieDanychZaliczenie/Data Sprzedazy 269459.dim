@@ -1,0 +1,210 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8e83ba5a-9c90-4571-b710-565d80a0739c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Data Sprzedazy 269459</ID>
+  <Name>Data Sprzedazy 269459</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1600" scrolltop="-4138" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6922" y="10943" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="data_sprzedazy_269459" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3683" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000630e00006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_data_sprzedazy_269459" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1600</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4138</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="4acf206a-1d50-4cb8-8def-4d2e645e0566">
+    <DataSourceViewID>Hurtownie Danych Zaliczenie 269459</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="88a4efe5-a737-4bdc-9c3a-489201b9d1b0">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Translations>
+    <Translation dwd:design-time-name="970659be-4ead-4359-8fee-92c4789b397f">
+      <Language>1031</Language>
+      <Caption>Datum des Verkauf 269459</Caption>
+    </Translation>
+  </Translations>
+  <Attributes>
+    <Attribute dwd:design-time-name="4a839301-82f7-4cf2-bb63-e57b0147caab">
+      <ID>Id Data Sprzedazy</ID>
+      <Name>Id Data Sprzedazy</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ee054495-aa6d-4b05-a6fb-267f6b09855b">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="beea8d07-64d0-4c96-adf3-e67ebe47cfd5">
+            <TableID>dbo_data_sprzedazy_269459</TableID>
+            <ColumnID>id_data_sprzedazy</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="8486c1c4-6213-4df8-bcf1-fab836b8ea72">
+          <AttributeID>Dzien Sprzedazy</AttributeID>
+          <Name>Dzien Sprzedazy</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ed6b4d8e-a535-4030-91c1-d6959396ae18">
+          <AttributeID>Miesiac Sprzedazy</AttributeID>
+          <Name>Miesiac Sprzedazy</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3a99459f-0f3e-4498-bf40-836765fb02b2">
+          <AttributeID>Rok Sprzedazy</AttributeID>
+          <Name>Rok Sprzedazy</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1fe792f0-3db8-4cfc-bfff-c807965e31b6">
+          <AttributeID>Godzina Sprzedazy</AttributeID>
+          <Name>Godzina Sprzedazy</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a745f4b1-05eb-4493-8223-02ceb3c64230">
+      <ID>Dzien Sprzedazy</ID>
+      <Name>Dzien Sprzedazy</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="52c0f1b0-db01-4218-946d-fe1610bd75f5">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7bdac961-e9b3-40e1-aa84-a0634c1e1ed9">
+            <TableID>dbo_data_sprzedazy_269459</TableID>
+            <ColumnID>dzien_sprzedazy</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="1538e004-0abc-4c8e-acc3-d024cfeda758">
+          <Language>1031</Language>
+          <Caption>Tag des Verkauf</Caption>
+        </Translation>
+      </Translations>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a09db535-4f7d-4d51-86cb-f9768985d7f3">
+      <ID>Miesiac Sprzedazy</ID>
+      <Name>Miesiac Sprzedazy</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="49f34ec2-09f2-4093-8ed7-9f75b1af7ede">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7373cd17-fba8-413a-92c3-b5c4bcefb6a9">
+            <TableID>dbo_data_sprzedazy_269459</TableID>
+            <ColumnID>miesiac_sprzedazy</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="348abd74-528e-4c66-a2d6-175e58f37366">
+          <Language>1031</Language>
+          <Caption>Monat des Verkauf</Caption>
+        </Translation>
+      </Translations>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="eb5f8682-1302-4e42-b3cd-43d45c1b6f34">
+      <ID>Rok Sprzedazy</ID>
+      <Name>Rok Sprzedazy</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4d9b1f52-9bdd-4eb4-9058-dc0d0dce20bc">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="190795c4-bd48-44f4-915d-d7ac94e3c80c">
+            <TableID>dbo_data_sprzedazy_269459</TableID>
+            <ColumnID>rok_sprzedazy</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="25d55202-c780-403d-806d-10299368e57d">
+          <Language>1031</Language>
+          <Caption>Jahr des Verkauf</Caption>
+        </Translation>
+      </Translations>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c3394930-f335-44a5-86ef-95baac8a3baa">
+      <ID>Godzina Sprzedazy</ID>
+      <Name>Godzina Sprzedazy</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="06d6006f-c97f-446a-8b96-772afbb9faad">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a54a0e7a-3b6e-48e7-926f-5a31900bcb1b">
+            <TableID>dbo_data_sprzedazy_269459</TableID>
+            <ColumnID>godzina_sprzedazy</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="ac76bf1c-e9ba-4d04-975e-699565ce14c0">
+          <Language>1031</Language>
+          <Caption>Uhr des Verkauf</Caption>
+        </Translation>
+      </Translations>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

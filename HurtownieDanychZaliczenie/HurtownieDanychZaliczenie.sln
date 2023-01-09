@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "HurtownieDanychZaliczenie", "HurtownieDanychZaliczenie.dwproj", "{E176EF74-4521-4B74-8EBC-E60A180D580B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E176EF74-4521-4B74-8EBC-E60A180D580B}.Development|Default.ActiveCfg = Development
+		{E176EF74-4521-4B74-8EBC-E60A180D580B}.Development|Default.Build.0 = Development
+		{E176EF74-4521-4B74-8EBC-E60A180D580B}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56DAEE42-C907-411B-BEDB-68788A823780}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,129 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8c71f4e0-5bfb-4c49-80f4-670155c7c3bd" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Hurtownie Danych Zaliczenie 269459</ID>
+  <Name>Hurtownie Danych Zaliczenie 269459</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Hurtownie Danych Zaliczenie</DataSourceID>
+  <Schema>
+    <xs:schema id="Hurtownie_x0020_Danych_x0020_Zaliczenie_x0020_269459" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Hurtownie_x0020_Danych_x0020_Zaliczenie_x0020_269459" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="f4817387-ef7a-41bb-aea8-3dd89551d3dc">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_data_sprzedazy_269459" msprop:design-time-name="1dd86164-0b89-49cb-b186-07f190429cf0" msprop:DbTableName="data_sprzedazy_269459" msprop:FriendlyName="data_sprzedazy_269459" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_data_sprzedazy" msprop:design-time-name="6f6a41d8-af2a-4ca6-b4ff-d622b5f8bef9" msprop:DbColumnName="id_data_sprzedazy" msprop:FriendlyName="id_data_sprzedazy" type="xs:double" />
+                  <xs:element name="dzien_sprzedazy" msprop:design-time-name="9ecb2587-b619-432c-9ada-11a3563e4061" msprop:DbColumnName="dzien_sprzedazy" msprop:FriendlyName="dzien_sprzedazy" type="xs:int" />
+                  <xs:element name="miesiac_sprzedazy" msprop:design-time-name="368d93d3-1c2b-4f44-ad2a-40856f5e4cd7" msprop:DbColumnName="miesiac_sprzedazy" msprop:FriendlyName="miesiac_sprzedazy" type="xs:int" />
+                  <xs:element name="rok_sprzedazy" msprop:design-time-name="217fd802-bc81-4cdb-8efb-3a485fd6632f" msprop:DbColumnName="rok_sprzedazy" msprop:FriendlyName="rok_sprzedazy" type="xs:int" />
+                  <xs:element name="godzina_sprzedazy" msprop:design-time-name="8128a8fd-9ebf-48ba-b03f-0b641f0d636e" msprop:DbColumnName="godzina_sprzedazy" msprop:FriendlyName="godzina_sprzedazy">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_miejsce_sprzedazy_269459" msprop:design-time-name="26c7ddbf-ce2e-4918-91d8-5f87843fe78d" msprop:DbTableName="miejsce_sprzedazy_269459" msprop:FriendlyName="miejsce_sprzedazy_269459" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_miejsce_sprzedazy" msprop:design-time-name="d43bba18-ba74-4e46-b2a9-3dd78a0620b7" msprop:DbColumnName="id_miejsce_sprzedazy" msprop:FriendlyName="id_miejsce_sprzedazy" type="xs:double" />
+                  <xs:element name="miejscowosc" msprop:design-time-name="e759fc72-84ae-405e-8bac-fba15dcfa2d8" msprop:DbColumnName="miejscowosc" msprop:FriendlyName="miejscowosc">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="symbol_wojewodztwa" msprop:design-time-name="98dc10d5-0967-44af-9aca-9910536e790f" msprop:DbColumnName="symbol_wojewodztwa" msprop:FriendlyName="symbol_wojewodztwa">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="nazwa_wojewodztwa" msprop:design-time-name="76ed675e-864d-4fc7-b32c-62665135afca" msprop:DbColumnName="nazwa_wojewodztwa" msprop:FriendlyName="nazwa_wojewodztwa">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_sprzedaz_269459" msprop:design-time-name="94f44f18-0c43-4f13-b049-92698ed557f0" msprop:DbTableName="sprzedaz_269459" msprop:FriendlyName="sprzedaz_269459" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_miejsce_sprzedazy" msprop:design-time-name="b3994c33-4e8b-486f-8fa9-1a1b834dfc43" msprop:DbColumnName="id_miejsce_sprzedazy" msprop:FriendlyName="id_miejsce_sprzedazy" type="xs:double" />
+                  <xs:element name="id_data_sprzedazy" msprop:design-time-name="4b3425e0-9d66-41ae-a647-4a563efc9119" msprop:DbColumnName="id_data_sprzedazy" msprop:FriendlyName="id_data_sprzedazy" type="xs:double" />
+                  <xs:element name="sprzedaz_komputery_stacjonarne_zl" msprop:design-time-name="71c8bf63-2274-4b4d-b3f3-b416e538a285" msprop:DbColumnName="sprzedaz_komputery_stacjonarne_zl" msprop:FriendlyName="sprzedaz_komputery_stacjonarne_zl" type="xs:double" />
+                  <xs:element name="sprzedaz_komputery_przenosne_zl" msprop:design-time-name="d35f1659-1da0-406f-9a53-93b6c4053973" msprop:DbColumnName="sprzedaz_komputery_przenosne_zl" msprop:FriendlyName="sprzedaz_komputery_przenosne_zl" type="xs:double" />
+                  <xs:element name="sprzedaz_tablety_zl" msprop:design-time-name="b18c6e16-c0f3-4e25-9480-3c2f03c5fc3e" msprop:DbColumnName="sprzedaz_tablety_zl" msprop:FriendlyName="sprzedaz_tablety_zl" type="xs:double" />
+                  <xs:element name="sprzedaz_telefony_zl" msprop:design-time-name="44f8ffe0-8e66-476e-86a1-152cfc4cd1e6" msprop:DbColumnName="sprzedaz_telefony_zl" msprop:FriendlyName="sprzedaz_telefony_zl" type="xs:double" />
+                  <xs:element name="sprzedaz_klawiatury_szt" msprop:design-time-name="4ed77db3-8a79-47d9-b343-a663c71412f2" msprop:DbColumnName="sprzedaz_klawiatury_szt" msprop:FriendlyName="sprzedaz_klawiatury_szt" type="xs:int" />
+                  <xs:element name="sprzedaz_myszy_szt" msprop:design-time-name="d7517957-635f-452d-88ac-9fa7b6e9239c" msprop:DbColumnName="sprzedaz_myszy_szt" msprop:FriendlyName="sprzedaz_myszy_szt" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_data_sprzedazy_269459" />
+          <xs:field xpath="id_data_sprzedazy" />
+        </xs:unique>
+        <xs:unique name="dbo_miejsce_sprzedazy_269459_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_miejsce_sprzedazy_269459" />
+          <xs:field xpath="id_miejsce_sprzedazy" />
+        </xs:unique>
+        <xs:keyref name="FK__sprzedaz___id_mi__3D2915A8" refer="dbo_miejsce_sprzedazy_269459_Constraint1">
+          <xs:selector xpath=".//dbo_sprzedaz_269459" />
+          <xs:field xpath="id_miejsce_sprzedazy" />
+        </xs:keyref>
+        <xs:keyref name="FK__sprzedaz___id_da__3E1D39E1" refer="Constraint1">
+          <xs:selector xpath=".//dbo_sprzedaz_269459" />
+          <xs:field xpath="id_data_sprzedazy" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Hurtownie_x0020_Danych_x0020_Zaliczenie_x0020_269459 xmlns="" />
+  </Schema>
+</DataSourceView>
